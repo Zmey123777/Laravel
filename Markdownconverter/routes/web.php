@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/md','App\Http\Controllers\MdController@mdShow');
+Route::get('/allmd','App\Http\Controllers\MdmenuController@getAllmd');
